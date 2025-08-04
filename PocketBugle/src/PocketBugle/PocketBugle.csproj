@@ -4,7 +4,7 @@
         <TargetFramework>netstandard2.1</TargetFramework>
         <AssemblyName>com.github.mondash.PocketBugle</AssemblyName>
         <AssemblyTitle>PocketBugle</AssemblyTitle>
-        <Version>0.1.0</Version>
+        <Version>1.0.1</Version>
     </PropertyGroup>
 
 </Project>
