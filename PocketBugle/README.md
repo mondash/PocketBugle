@@ -1,6 +1,6 @@
 # 📯 *PocketBugle*
 
-*PocketBugle* lets you spawn or dismiss a bugle in your hand with a single keypress — no need to rummage around the island or take turns.
+*PocketBugle* lets you summon or dismiss a bugle from your hand with a single keypress — no need to rummage around the island or take turns tooting.
 
 ## 📚 Table of Contents
 
@@ -20,11 +20,9 @@
 
 ## 🔧 How It Works
 
-Press your configured key (default: `B`) to spawn a bugle in your hand
+Press your configured key (default: `B`) to summon your bugle to your hand
 
-Press it again to remove the bugle
-
-If you already have an item equipped, the bugle won't replace it
+Press it again to dismiss your bugle
 
 Fully supports [*Virtuoso*][virtuoso], letting you jump into a performance instantly!
 
@@ -40,11 +38,11 @@ Install via [Thunderstore][thunderstore] using your favorite mod manager, or ext
 
 ## ❓ FAQ
 
-**Q: Can I use this with [*Virtuoso*][virtuoso]?**  
-A: Absolutely! *PocketBugle* spawns the same bugle [*Virtuoso*][virtuoso] uses — they work great together.
+**Q: Can I use this with [*Virtuoso*][virtuoso] or other bugle audio replacer mods?**  
+A: Absolutely! *PocketBugle* spawns the same bugle these mods use — they work great together.
 
 **Q: What if I already have an item equipped?**  
-A: The mod won’t force-swap your current item. You’ll need to free your hand before the bugle can spawn.
+A: Your bugle will only be summoned if you have an available slot. You won't accidentally drop something important!
 
 **Q: Can I change the keybind?**  
 A: Yes — the key is fully configurable in the mod's config file.

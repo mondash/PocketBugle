@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.0.2] - 2025-08-04
+
+### Changed
+
+- Updated README
+
+### Fixed
+
+- Bugle spawn and destroy now properly works as intended
+
 ## [1.0.1] - 2025-08-04
 
 ### Changed
