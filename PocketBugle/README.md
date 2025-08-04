@@ -57,6 +57,8 @@ Have feedback, questions, or found a bug? Open an issue on [GitHub][github] — 
 - 🪚 Built with **BepInEx**, and **Unity**
 - 💖 Special thanks to the [PEAK Modding Community][discord] for advice, testing, and moral support
 
+ ---
+
 Download the mod on [Thunderstore][thunderstore] or check out the code behind it on [GitHub][github].
 
 Tucked away, ready to play. 📯
