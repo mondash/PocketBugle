@@ -12,15 +12,11 @@
 - [💬 Feedback / Issues](#-feedback--issues)
 - [🎖️ Credits](#-credits)
 
----
-
 ## 🚀 Features
 
 - 🎺 Toggle a bugle in and out of your hand with a **configurable hotkey**
 - 🧳 **Pocket-sized convenience** for on-the-go brass playing
 - 🌐 **Multiplayer-friendly** client-only mod
-
----
 
 ## 🔧 How It Works
 
@@ -32,21 +28,15 @@ If you already have an item equipped, the bugle won't replace it
 
 Fully supports [*Virtuoso*][virtuoso], letting you jump into a performance instantly!
 
----
-
 ## 🔗 Compatibility
 
 - Requires **PEAK**
 - Works in **multiplayer** right out of the box
 - Works with [*Virtuoso*][virtuoso] and other bugle-related mods
 
----
-
 ## 🛠️ Installation
 
 Install via [Thunderstore][thunderstore] using your favorite mod manager, or extract manually into your game's `BepInEx/plugins` folder.
-
----
 
 ## ❓ FAQ
 
@@ -59,21 +49,15 @@ A: The mod won’t force-swap your current item. You’ll need to free your hand
 **Q: Can I change the keybind?**  
 A: Yes — the key is fully configurable in the mod's config file.
 
----
-
 ## 💬 Feedback / Issues
 
 Have feedback, questions, or found a bug? Open an issue on [GitHub][github] — your feedback helps improve the mod!
-
----
 
 ## 🎖️ Credits
 
 - 🦐 Developed, with love, by your local shrimp guy **Matthew Ondash**
 - 🪚 Built with **BepInEx**, and **Unity**
 - 💖 Special thanks to the [PEAK Modding Community][discord] for advice, testing, and moral support
-
----
 
 Download the mod on [Thunderstore][thunderstore] or check out the code behind it on [GitHub][github].
 
