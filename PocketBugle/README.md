@@ -31,6 +31,7 @@ Fully supports [*Virtuoso*][virtuoso], letting you jump into a performance insta
 - Requires **PEAK**
 - Works in **multiplayer** right out of the box
 - Works with [*Virtuoso*][virtuoso] and other bugle-related mods
+- Works with [*PEAKER*][peaker]
 
 ## 🛠️ Installation
 
@@ -67,3 +68,4 @@ Tucked away, ready to play. 📯
 [github]: https://github.com/mondash/PocketBugle
 [thunderstore]: https://thunderstore.io/c/peak/
 [virtuoso]: https://thunderstore.io/c/peak/p/mondash/Virtuoso/
+[peaker]: https://thunderstore.io/c/peak/p/lammas123/PEAKER/

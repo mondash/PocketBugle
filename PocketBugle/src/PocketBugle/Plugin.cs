@@ -1,4 +1,5 @@
 ﻿using BepInEx;
+using Photon.Pun;
 using UnityEngine;
 using Zorro.Core;
 
@@ -9,6 +10,9 @@ public partial class Plugin : BaseUnityPlugin
 {
     private const ushort BugleItemID = 15;
     private const string BugleItemName = "Bugle";
+    private const string DestroyHeldItemMethod = nameof(CharacterItems.DestroyHeldItemRpc);
+    private const string SpawnItemInHandMethod = nameof(CharacterItems.RPC_SpawnItemInHandMaster);
+
     private static KeyCode PocketKey => PocketConfig.PocketKey.Value;
 
     private void Awake()
@@ -23,10 +27,15 @@ public partial class Plugin : BaseUnityPlugin
     private static bool IsHoldingBugle(Character character) =>
         IsBugle(character.data.currentItem);
 
+    private static void DestroyHeldItem(Character character) =>
+        character.refs.items.photonView.RPC(DestroyHeldItemMethod, PhotonNetwork.LocalPlayer);
+        // character.refs.items.DestroyHeldItemRpc(); // Will not work if PEAKERRpcInfo is installed
+
+
     private static bool TryDestroyHeldBugle(Character character)
     {
         if (!IsHoldingBugle(character)) return false;
-        character.refs.items.DestroyHeldItemRpc();
+        DestroyHeldItem(character);
 
         var slot = character.refs.items.currentSelectedSlot;
         if (slot.IsSome) character.player.EmptySlot(slot);
@@ -56,7 +65,9 @@ public partial class Plugin : BaseUnityPlugin
     }
 
     private static void SpawnBugle(Character character) =>
-        character.refs.items.SpawnItemInHand(BugleItemName);
+        character.refs.items.photonView.RPC(SpawnItemInHandMethod, RpcTarget.MasterClient, BugleItemName);
+        // character.refs.items.SpawnItemInHand(BugleItemName); // Will not work if PEAKERRpcInfo is installed
+
 
     private void Update()
     {

@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.0.3] - 2025-08-08
+
+### Added
+
+- Compatibility entry for *PEAKER* in README
+
+### Changed
+
+- Dispatches RPCs for spawn/destroy instead of manually invoking methods
+
+### Fixed
+
+- Compatibility with *PEAKERRpcInfo* and *PEAKER*
+
 ## [1.0.2] - 2025-08-04
 
 ### Changed
