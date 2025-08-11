@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.4] - 2025-08-11
+
+### Fixed
+
+- Rebuilt for latest game version
+
 ## [1.0.3] - 2025-08-08
 
 ### Added
