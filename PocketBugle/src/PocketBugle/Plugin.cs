@@ -1,4 +1,4 @@
-﻿using BepInEx;
+using BepInEx;
 using Photon.Pun;
 using UnityEngine;
 using Zorro.Core;
@@ -65,8 +65,9 @@ public partial class Plugin : BaseUnityPlugin
     }
 
     private static void SpawnBugle(Character character) =>
-        character.refs.items.photonView.RPC(SpawnItemInHandMethod, RpcTarget.MasterClient, BugleItemName);
-        // character.refs.items.SpawnItemInHand(BugleItemName); // Will not work if PEAKERRpcInfo is installed
+        character.refs.items.SpawnItemInHand(BugleItemName);
+        // Note: 原实现为 photonView.RPC(SpawnItemInHandMethod, RpcTarget.MasterClient, BugleItemName)。
+        // 改用显式调用以规避新版本 0_Items/Bugle 寻址失效的问题。
 
 
     private void Update()
